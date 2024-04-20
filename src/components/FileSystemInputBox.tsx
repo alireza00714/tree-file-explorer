@@ -28,7 +28,7 @@ export default function FileSystemInputBox({
       <img
         alt={name}
         className="w-5 h-5"
-        src={`/src/assets/icons/${
+        src={`/assets/icons/${
           typeOfAdding === "File"
             ? getFileIconName(getFileExtension(name))
             : "folder-base"
